@@ -501,16 +501,21 @@ body {
   width: 100vw;
   height: 100vh;
   transform: translateX(-200%);
-  background-color: rgb(157, 110, 23);
+  background-image: linear-gradient(20deg, rgb(172, 90, 14), rgb(196, 149, 9));
   border: black 2px solid;
-  padding: 2%;
+  padding: 5%;
+  z-index: 10;
 }
 @media screen and (min-width: 700px) {
   .menu-principal-container {
+    width: auto;
+    height: auto;
     position: static;
     transform: translateX(0);
     background-color: rgba(0, 0, 0, 0);
+    background-image: none;
     border: none;
+    padding: 1%;
   }
 }
 
@@ -531,13 +536,28 @@ body {
 
 .menu-item {
   margin-bottom: 60px;
-  font-size: 4rem;
+  font-size: clamp(2rem, 0.5rem + 8vw, 4rem);
   color: rgba(108, 183, 221, 0.795);
 }
 @media screen and (min-width: 700px) {
   .menu-item {
     color: black;
     margin-bottom: 7px;
+    font-size: 1rem;
+  }
+}
+
+.menu-item a {
+  text-decoration: none;
+  border: solid 3px black;
+  border-radius: 10px;
+  padding: 5px;
+}
+@media screen and (min-width: 700px) {
+  .menu-item a {
+    border: none;
+    padding: 0;
+    font-size: 1rem;
   }
 }
 
