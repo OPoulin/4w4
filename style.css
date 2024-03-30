@@ -119,13 +119,20 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
 /* Class utile                            */
 /* ////////////////////////////////////////// */
 .bgc-text {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 248, 118, 0.415);
   padding: 15px 20px;
+  border-radius: 30px;
+  border: 2px rgba(0, 0, 0, 0.111) solid;
 }
 @media screen and (min-width: 1100px) {
   .bgc-text {
     background-color: transparent;
   }
+}
+
+h2.bgc-text,
+h3.bgc-text {
+  text-shadow: 3px 5px 6px rgb(240, 239, 128);
 }
 
 /* ////////////////////////////////////////// */
@@ -206,6 +213,10 @@ blockquote::first-letter {
   font-size: clamp(1.5625rem, -0.2604rem + 5.8333vw, 3.75rem);
   font-weight: bold;
   color: var(--_couleur-blockquote-first-letter);
+}
+
+a {
+  text-decoration: none;
 }
 
 button.entete__button {
@@ -300,7 +311,6 @@ body {
 #entete {
   background-color: var(--_couleur-arriere);
   color: var(--_couleur);
-  position: relative;
 }
 
 #accueil {
@@ -387,7 +397,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  padding-top: 1.5;
+  padding-top: 1.5rem;
   gap: 1.5rem;
 }
 @media screen and (min-width: 700px) {
