@@ -536,7 +536,7 @@ body {
 
 .menu-item {
   margin-bottom: 60px;
-  font-size: clamp(2rem, 0.5rem + 8vw, 4rem);
+  font-size: clamp(2rem, 0.5rem + 6vw, 4rem);
   color: rgba(108, 183, 221, 0.795);
 }
 @media screen and (min-width: 700px) {
@@ -544,6 +544,10 @@ body {
     color: black;
     margin-bottom: 7px;
     font-size: 1rem;
+    padding: 15px;
+  }
+  .menu-item:hover {
+    background-color: rgba(241, 171, 7, 0.95);
   }
 }
 
@@ -579,4 +583,21 @@ body {
 
 #chk_burger:checked ~ .menu-principal-container {
   transform: translateX(0);
+}
+
+@media screen and (min-width: 700px) {
+  .container-taille ul {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .container-taille:hover > ul {
+    display: block;
+    position: absolute;
+    z-index: 8;
+    background-color: rgba(241, 171, 7, 0.95);
+    padding: 10px;
+    margin-left: -15px;
+  }
 }/*# sourceMappingURL=style.css.map */
