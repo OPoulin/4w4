@@ -79,12 +79,31 @@
    }
 }
 
-/*Le menu se cache si l'on arrete de hover par dessus le nav entre 700px et 1100px de window width (A CORRIGER)*/
+/* Le menu se cache si l'on arrete de hover par dessus le nav entre 700px et 1100px de window width (A CORRIGER)
+   N'arrive que dans la page d'accueil*/
+
+/*Incapable de retirer les marqueurs de sous-menu de WordPress (A CORRIGER)*/
 
 .menu-item-89 {
   position: static;
   margin-top: 60px;
   
+  @media screen and (min-width:700px) {
+    margin: auto;
+  }
+}
+
+.menu-item-89 a {
+  margin-left: 3rem;
+
+  @media screen and (min-width:700px) {
+    margin-left: auto;
+  }
+}
+
+.menu-item-90 a {
+  margin-left: 3rem;
+
   @media screen and (min-width:700px) {
     margin: auto;
   }

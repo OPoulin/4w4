@@ -50,15 +50,13 @@ the_title() // echo du titre
             /*A corriger dans le futur*/
             /*echo do_shortcode('[soliloquy id="171"]');*/?>
             <?php include("slideshow.php"); ?>
-            <p>Lorem ipsum dolor sit amet,<a href="#">Lorem, ipsum.</a>  consectetur adipisicing elit. Minima <a href="#">Lorem, ipsum.</a>  velit qui unde odit quae, magni labore maiores facilis obcaecati dolore, ullam facere. Ducimus veniam reprehenderit, temporibus ab at possimus fugit?</p>
-            <blockquote>Galerie ipsum, dolor sit amet consectetur adipisicing elit. Accusantium a, repellat alias qui ut in ratione optio quia quae minus repudiandae ducimus aliquid aperiam unde atque tempore non. Non, magnam.</blockquote>
+            <blockquote class="slogan__blockquote">Visitez l'une de nos centaines de destinations vacances. Nos voyages ont de quoi plaire à tous les types de voyageurs, que vous soyez du type détente ou aventureux, nous avons toutes les destinations pour vous combler de joie.</blockquote>
         </section>
     </div>
     <div id="evenement" class="global">
         <section class="evenement__section">
-            <h2>Événement</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#">Lorem, ipsum.</a>  Minima velit qui unde odit quae, <a href="#">Lorem, ipsum.</a>  magni labore maiores facilis obcaecati dolore, ullam facere. Ducimus veniam reprehenderit, temporibus ab at possimus fugit?</p>
-             <blockquote>Événement ipsum, dolor sit amet consectetur adipisicing elit. Accusantium a, repellat alias qui ut in ratione optio quia quae minus repudiandae ducimus aliquid aperiam unde atque tempore non. Non, magnam.</blockquote>
+            <h2>Destinations Populaires</h2>
+            
         </section>
         <?php get_template_part("gabarit/vague"); ?>
     </div>

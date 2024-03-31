@@ -15,6 +15,8 @@
     align-items: center;
     flex : 1 0 calc(1010px/4);
     background-color: hsl(var(--hu1),var(--s-couleur-arriere),  75%);
+    border-radius: 20px;
+    border: ridge 2px black;
 }
 
 .carte *{
@@ -23,4 +25,9 @@
 .carte .post-categories {
     list-style-type: none;
     display: flex;
+}
+
+.carte h4::first-letter {
+    font-size: 1.3rem;
+    color: rgb(69, 52, 3);
 }
