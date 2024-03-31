@@ -645,4 +645,7 @@ input::-webkit-search-cancel-button {
     padding: 10px;
     margin-left: -15px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/* Testé avec MetaSlider et Soliloquy et les deux ne fonctionnent pas pour le moment present
+   Le diaporama aurait ete place au niveaux de la gallerie par dessus le texte et le blockquote*//*# sourceMappingURL=style.css.map */
