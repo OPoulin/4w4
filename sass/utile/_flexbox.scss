@@ -1,0 +1,9 @@
+.flexbox {
+    margin-top: 1rem;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
