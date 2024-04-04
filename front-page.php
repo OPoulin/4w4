@@ -36,17 +36,18 @@
     <div id="evenement" class="global">
         <section class="evenement__section">
             <h2>Destinations Populaires</h2>
-            <div class="section__cours">   
-            <?php if (have_posts()):
-                while(have_posts()): the_post(); ?>
-                    <div class="carte">
-                        
-                        <h4><?php the_title() ?></h4>
-                        <p><?php echo wp_trim_words(get_the_content(),10); ?></p>
-                        <p><a href="<?php echo get_permalink(); ?>">La suite</a> </p>
-                    </div>
-                <?php endwhile; ?>
-            <?php endif; ?>
+            <div class="arranger__populaire">
+                <div class="section__cours">   
+                    <?php if (have_posts()):
+                        while(have_posts()): the_post(); ?>
+                            <div class="carte">    
+                                <h4><?php the_title() ?></h4>
+                                <p><?php echo wp_trim_words(get_the_content(),10); ?></p>
+                                <p><a class="lien__carte" href="<?php echo get_permalink(); ?>">Plus d'information</a></p>
+                            </div>
+                        <?php endwhile; ?>
+                    <?php endif; ?>
+                </div>
             </div>
         </section>
         <?php get_template_part("gabarit/vague"); ?>
