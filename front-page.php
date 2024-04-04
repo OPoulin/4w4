@@ -34,7 +34,7 @@
                         <h3><?php echo $nom; ?></h3>
                         <p><?php echo $description; ?></p>
                         <p>Nombre de destinations : <?php echo $nombre_destinations; ?></p>
-                        <a href="<?php echo $url_categorie; ?>">Voyages correspondants</a>
+                        <a class="lien__carte" href="<?php echo $url_categorie; ?>">Voyages correspondants</a>
                     </div>
                 <?php } ?>
             </article>
