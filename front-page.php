@@ -20,18 +20,6 @@
     <div id="accueil" class="global">
         <section class="accueil__section">
             <h2>Souhaitez la bienvenue à des vacances bien mérité</h2>
-            <div class="section__cours">   
-            <?php if (have_posts()):
-                while(have_posts()): the_post(); ?>
-                    <div class="carte">
-                        
-                        <h4><?php the_title() ?></h4>
-                        <p><?php echo wp_trim_words(get_the_content(),10); ?></p>
-                        <p><a href="<?php echo get_permalink(); ?>">La suite</a> </p>
-                    </div>
-                <?php endwhile; ?>
-            <?php endif; ?>
-            </div>
         </section>
     </div>
     <div id="galerie" class="global diagonal">
@@ -48,7 +36,18 @@
     <div id="evenement" class="global">
         <section class="evenement__section">
             <h2>Destinations Populaires</h2>
-            
+            <div class="section__cours">   
+            <?php if (have_posts()):
+                while(have_posts()): the_post(); ?>
+                    <div class="carte">
+                        
+                        <h4><?php the_title() ?></h4>
+                        <p><?php echo wp_trim_words(get_the_content(),10); ?></p>
+                        <p><a href="<?php echo get_permalink(); ?>">La suite</a> </p>
+                    </div>
+                <?php endwhile; ?>
+            <?php endif; ?>
+            </div>
         </section>
         <?php get_template_part("gabarit/vague"); ?>
     </div>

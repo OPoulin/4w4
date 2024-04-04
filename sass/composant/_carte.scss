@@ -1,9 +1,11 @@
 
 
 .section__cours {
+    max-width: 750px;
     display: flex;
     flex-wrap: wrap;
     gap : 1rem;
+    margin: 2.5rem;
 }
 
 .carte {
