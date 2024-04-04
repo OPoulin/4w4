@@ -136,6 +136,14 @@ h3.bgc-text {
   text-shadow: 3px 5px 6px rgb(240, 239, 128);
 }
 
+.flexbox {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
 /* ////////////////////////////////////////// */
 /* règles de base                             */
 /* ////////////////////////////////////////// */
@@ -336,6 +344,12 @@ body {
   position: relative;
 }
 
+.evenement__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #footer {
   background-color: var(--_couleur-arriere);
   color: var(--_couleur);
@@ -496,24 +510,10 @@ input::-webkit-search-cancel-button {
 }
 
 .section__cours {
-  max-width: 599px;
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   margin: 2.5rem;
-}
-@media screen and (min-width: 700px) {
-  .section__cours {
-    max-width: 750px;
-  }
-}
-
-.arranger__populaire {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .carte {

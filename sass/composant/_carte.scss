@@ -1,21 +1,9 @@
 
 .section__cours {
-    max-width: 599px;
     display: flex;
     flex-wrap: wrap;
     gap : 1rem;
     margin: 2.5rem;
-    @media screen and (min-width:700px) {
-        max-width: 750px;
-    }
-}
-
-.arranger__populaire {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .carte {

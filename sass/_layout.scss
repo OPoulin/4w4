@@ -82,6 +82,13 @@ body {
     color : var(--_couleur);
     position : relative;
 }
+
+.evenement__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #footer {
     background-color: var(--_couleur-arriere);
     color : var(--_couleur);

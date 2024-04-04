@@ -26,14 +26,14 @@
                     $categories = get_categories();
                     foreach ($categories as $elm_categories) {
                         $nom = $elm_categories->name;
-                        $description = wp_trim_words($elm_categories->description, 20);
+                        $description = wp_trim_words($elm_categories->description, 10);
                         $nombre_destinations = $elm_categories->count;
                         $url_categorie = get_term_link($elm_categories); //FIX THIS
                     ?>
                     <div class="carte">
                         <h3><?php echo $nom; ?></h3>
                         <p><?php echo $description; ?></p>
-                        <p>Nombre de destionations : <?php echo $nombre_destinations; ?></p>
+                        <p>Nombre de destinations : <?php echo $nombre_destinations; ?></p>
                         <a href="<?php echo $url_categorie; ?>">Voyages correspondants</a>
                     </div>
                 <?php } ?>
@@ -54,18 +54,16 @@
     <div id="evenement" class="global">
         <section class="evenement__section">
             <h2>Destinations Populaires</h2>
-            <div class="arranger__populaire">
-                <div class="section__cours">   
-                    <?php if (have_posts()):
-                        while(have_posts()): the_post(); ?>
-                            <div class="carte">    
-                                <h4><?php the_title() ?></h4>
-                                <p><?php echo wp_trim_words(get_the_content(),10); ?></p>
-                                <p><a class="lien__carte" href="<?php echo get_permalink(); ?>">Plus d'information</a></p>
-                            </div>
-                        <?php endwhile; ?>
-                    <?php endif; ?>
-                </div>
+            <div class="section__cours">   
+                <?php if (have_posts()):
+                    while(have_posts()): the_post(); ?>
+                        <div class="carte">    
+                            <h4><?php the_title() ?></h4>
+                            <p><?php echo wp_trim_words(get_the_content(), 10); ?></p>
+                            <p><a class="lien__carte" href="<?php echo get_permalink(); ?>">Plus d'information</a></p>
+                        </div>
+                    <?php endwhile; ?>
+                <?php endif; ?>
             </div>
         </section>
         <?php get_template_part("gabarit/vague"); ?>
