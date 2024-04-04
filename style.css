@@ -160,6 +160,10 @@ h2 {
   font-family: "Madimi One", sans-serif;
 }
 
+.texte_section {
+  margin-bottom: 2vw;
+}
+
 h3 {
   font-size: clamp(1.4375rem, 0.0313rem + 4.5vw, 3.125rem);
   font-family: "Madimi One", sans-serif;
@@ -451,7 +455,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 2rem;
-  margin-top: 4rem;
+  margin: 4rem;
 }
 
 .sociaux svg {
@@ -554,6 +558,7 @@ input::-webkit-search-cancel-button {
 </ul>
 </nav>
 */
+/*HEADER*/
 .menu-principal-container {
   position: fixed;
   top: 0;
@@ -700,6 +705,13 @@ input::-webkit-search-cancel-button {
     padding: 10px;
     margin-left: -15px;
   }
+}
+
+/*GALERIE*/
+/*FOOTER*/
+.lien {
+  width: 100%;
+  display: flex;
 }
 
 /* Testé avec MetaSlider et Soliloquy et les deux ne fonctionnent pas pour le moment present*/

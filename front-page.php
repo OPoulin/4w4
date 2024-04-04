@@ -19,7 +19,17 @@
     </div>
     <div id="accueil" class="global">
         <section class="accueil__section">
-            <h2>Souhaitez la bienvenue à des vacances bien mérité</h2>
+            <h2 class="texte_section">Souhaitez la bienvenue à des vacances bien mérité</h2>
+            <h3>Nos catégories de voyage</h3>
+            <?php 
+                $categories = get_categories();
+                foreach ($categories as $elm_categories) {
+                    $nom = $elm_categories->name;
+                    $description = $elm_categories->description;
+                    $nombre_destinations = $elm_categories->count;
+                    $url_categorie = get_permalink($elm_categories->id);
+                }
+            ?>
         </section>
     </div>
     <div id="galerie" class="global diagonal">

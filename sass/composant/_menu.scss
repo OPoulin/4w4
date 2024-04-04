@@ -10,6 +10,8 @@
 </ul>
 </nav>
 */
+
+/*HEADER*/
 .menu-principal-container { //nav
     position: fixed;
     top:0;
@@ -145,4 +147,15 @@
     padding: 10px;
     margin-left: -15px;
   }
+}
+
+
+/*GALERIE*/
+
+
+/*FOOTER*/
+
+.lien {
+  width: 100%;
+  display: flex;
 }
