@@ -20,27 +20,19 @@
     <div id="accueil" class="global">
         <section class="accueil__section">
             <h2>Souhaitez la bienvenue à des vacances bien mérité</h2>
-        <div class="section__cours">  
- <?php
-/*
-get_the_title(); // retourne une chaîne qui contient le titre
-the_title() // echo du titre
-*/
-
-  ?>      
-  <?php if (have_posts()):
-        while(have_posts()): the_post(); ?>
-        <div class="carte">
-            
-            <h4><?php the_title() ?></h4>
-            <p><?php echo wp_trim_words(get_the_content(),10); ?></p>
-            <p><a href="<?php echo get_permalink(); ?>">La suite</a> </p>
-            <?php the_category(); ?>
-        </div>
-       <?php endwhile; ?>
-    <?php endif; ?>
-  </div>
-
+            <div class="section__cours">   
+            <?php if (have_posts()):
+                while(have_posts()): the_post(); ?>
+                    <div class="carte">
+                        
+                        <h4><?php the_title() ?></h4>
+                        <p><?php echo wp_trim_words(get_the_content(),10); ?></p>
+                        <p><a href="<?php echo get_permalink(); ?>">La suite</a> </p>
+                    </div>
+                <?php endwhile; ?>
+            <?php endif; ?>
+            </div>
+        </section>
     </div>
     <div id="galerie" class="global diagonal">
         <section class="galerie__section">
