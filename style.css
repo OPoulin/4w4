@@ -677,6 +677,10 @@ input::-webkit-search-cancel-button {
   }
 }
 
+.sub-menu .menu-item {
+  list-style-type: none;
+}
+
 #chk_burger {
   display: none;
 }
@@ -722,6 +726,11 @@ input::-webkit-search-cancel-button {
 .lien {
   width: 100%;
   display: flex;
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+#menu-footer {
+  list-style-type: none;
 }
 
 /* Testé avec MetaSlider et Soliloquy et les deux ne fonctionnent pas pour le moment present*/

@@ -111,6 +111,10 @@
   }
 }
 
+.sub-menu .menu-item {
+  list-style-type: none;
+}
+
 #chk_burger{
   display: none;
 }
@@ -158,4 +162,9 @@
 .lien {
   width: 100%;
   display: flex;
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+#menu-footer {
+  list-style-type: none;
 }
