@@ -18,6 +18,9 @@ h1 {
     font-family: "Madimi One", sans-serif;
 }
 
+h1.page-title {
+    font-size: clamp(1.875rem, -1.25rem + 6vw, 5.625rem);
+}
 
 h2 { 
     font-size: clamp(1.5625rem, -0.2604rem + 5.8333vw, 3.75rem);

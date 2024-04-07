@@ -26,4 +26,7 @@
         /* permet d'ajouter un logo qui a été choisi à l'aide du  personnaliser «customizer» */
         echo get_custom_logo(); 
         ?>
+        <?php 
+        echo get_search_form();
+        ?>
     </div>
