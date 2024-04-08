@@ -367,6 +367,12 @@ body {
   padding: 4rem;
 }
 
+.conteneur__recherche {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .evenement__section {
   display: flex;
   flex-direction: column;
