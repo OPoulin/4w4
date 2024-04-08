@@ -87,7 +87,7 @@
 
 /*Incapable de retirer les marqueurs de sous-menu de WordPress (A CORRIGER)*/
 
-.menu-item-89 {
+.menu-item:nth-of-type(9) {
   position: static;
   margin-top: 60px;
   
@@ -96,7 +96,7 @@
   }
 }
 
-.menu-item-89 a {
+.menu-item:nth-of-type(9) a {
   margin-left: 3rem;
 
   @media screen and (min-width:700px) {
@@ -104,7 +104,7 @@
   }
 }
 
-.menu-item-90 a {
+.menu-item:nth-of-type(10) a {
   margin-left: 3rem;
 
   @media screen and (min-width:700px) {
