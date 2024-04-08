@@ -330,7 +330,7 @@ body {
 }
 
 .entete__menu, .entete__header {
-  flex: 0 1 1500px;
+  flex: 0 1 1300px;
   padding: 3rem 0 0 0;
   position: relative;
 }
@@ -361,6 +361,7 @@ body {
 .site__main {
   font-family: "Madimi One", sans-serif;
   display: flex;
+  align-items: center;
   flex-direction: column;
   background-color: var(--couleur-arriere-accueil);
   padding: 4rem;
@@ -374,6 +375,7 @@ body {
 
 .recherche__section {
   max-height: fit-content;
+  width: 80vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -732,31 +734,22 @@ input::-webkit-search-cancel-button {
 /* Le menu se cache si l'on arrete de hover par dessus le nav entre 700px et 1100px de window width (A CORRIGER)
    N'arrive que dans la page d'accueil*/
 /*Incapable de retirer les marqueurs de sous-menu de WordPress (A CORRIGER)*/
-.menu-item:nth-of-type(9) {
+.menu-item-has-children .sub-menu li {
   position: static;
   margin-top: 60px;
 }
 @media screen and (min-width: 700px) {
-  .menu-item:nth-of-type(9) {
+  .menu-item-has-children .sub-menu li {
     margin: auto;
   }
 }
 
-.menu-item:nth-of-type(9) a {
+.menu-item-has-children .sub-menu li a {
   margin-left: 3rem;
 }
 @media screen and (min-width: 700px) {
-  .menu-item:nth-of-type(9) a {
+  .menu-item-has-children .sub-menu li a {
     margin-left: auto;
-  }
-}
-
-.menu-item:nth-of-type(10) a {
-  margin-left: 3rem;
-}
-@media screen and (min-width: 700px) {
-  .menu-item:nth-of-type(10) a {
-    margin: auto;
   }
 }
 

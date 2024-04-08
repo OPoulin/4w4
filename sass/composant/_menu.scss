@@ -12,6 +12,7 @@
 */
 
 /*HEADER*/
+
 .menu-principal-container { //nav
     position: fixed;
     top:0;
@@ -87,7 +88,7 @@
 
 /*Incapable de retirer les marqueurs de sous-menu de WordPress (A CORRIGER)*/
 
-.menu-item:nth-of-type(9) {
+.menu-item-has-children .sub-menu li {
   position: static;
   margin-top: 60px;
   
@@ -96,19 +97,11 @@
   }
 }
 
-.menu-item:nth-of-type(9) a {
+.menu-item-has-children .sub-menu li a {
   margin-left: 3rem;
 
   @media screen and (min-width:700px) {
     margin-left: auto;
-  }
-}
-
-.menu-item:nth-of-type(10) a {
-  margin-left: 3rem;
-
-  @media screen and (min-width:700px) {
-    margin: auto;
   }
 }
 
