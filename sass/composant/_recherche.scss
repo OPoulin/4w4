@@ -42,13 +42,16 @@ input::-webkit-search-cancel-button {
     cursor: pointer;
 }
 .recherche {
-    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     padding-bottom: 1rem;
 }
 
 .recherche__input {
     font-family: "Madimi One", sans-serif;
     padding: 0.5rem;
+    margin-right: 10px;
     border-radius: 30px;
     font-size: 1.5rem;
     background-color: rgba(228, 228, 228, 0.911);
