@@ -13,7 +13,7 @@
                     echo get_search_form();
                     ?>
                     <div class="les_categories">
-
+                        
                     </div>
                 </div>
             </div>

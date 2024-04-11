@@ -946,4 +946,37 @@ input::-webkit-search-cancel-button {
 
 .ensemble_404 {
   display: flex;
+}
+
+.conteneur_404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#bouton_retour {
+  width: 90%;
+  padding-top: 2.6vw;
+  padding-bottom: 2.6vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  font-family: "Madimi One", sans-serif;
+  border-radius: 70px;
+  border: rgba(69, 38, 0, 0.62) 5px solid;
+  font-size: 3vw;
+  background-color: rgba(213, 134, 24, 0.69);
+  margin: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+#bouton_retour:hover {
+  background-color: rgba(213, 134, 24, 0.53);
+}
+#bouton_retour:active {
+  background-color: rgba(213, 134, 24, 0.83);
+}
+@media screen and (min-width: 1100px) {
+  #bouton_retour {
+    font-size: 2vw;
+  }
 }/*# sourceMappingURL=style.css.map */
