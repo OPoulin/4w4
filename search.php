@@ -31,9 +31,9 @@ get_header();
 
     else :
     // If no search results are found, display a message
-    
-    include("404.php");
-    
+    ?>
+    <p><?php esc_html_e("Désolé, mais nous n'avons pas trouvé de résultats à votre recherche, réessayez avec des mots-clés différents", 'text_domain'); ?></p>
+    <?php
     endif;
     ?>
     </section>

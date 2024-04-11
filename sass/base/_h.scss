@@ -43,6 +43,13 @@ h3 {
 h4 {
     font-family: "Fenix", serif;
 }
+
+h4.texte_404 {
+    font-family: "Fenix", serif;
+    font-size: clamp(1.4375rem, 0.0313rem + 2.5vw, 1.875rem);
+    margin-bottom: 15px;
+}
+
 h5 {
     font-family: "Fenix", serif;
 }
