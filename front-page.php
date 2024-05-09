@@ -38,7 +38,12 @@
                     </div>
                 <?php } ?>
             </article>
-        </section>
+            <?php
+            // Appel du shortcode directement dans le fichier front-page.php
+            echo do_shortcode('[em_destination]');
+            ?>
+            
+        </section>  
     </div>
     <div id="galerie" class="global diagonal">
         <section class="galerie__section">
