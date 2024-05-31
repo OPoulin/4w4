@@ -3,32 +3,32 @@
 
   <div class="images__slideshow fondu">
     <div class="numero__texte">1 / 5</div>
-    <img src="https://gftnth00.mywhc.ca/tim45/wp-content/uploads/2024/04/city_hall.png" style="width:100%">
-    <div class="texte">Découvrez de nombreuses nouvelles cultures</div>
+    <img class="img__taille" src="https://gftnth00.mywhc.ca/tim45/wp-content/uploads/2024/05/argentina.jpg" style="width:100%">
+    <div class="texte">Visitez les vues époustouflantes de l'Argentine</div>
   </div>
 
   <div class="images__slideshow fondu">
     <div class="numero__texte">2 / 5</div>
-    <img src="https://gftnth00.mywhc.ca/tim45/wp-content/uploads/2024/04/Cruise.png" style="width:100%">
-    <div class="texte">Une de nos merveilleuses croisières</div>
+    <img class="img__taille" src="https://gftnth00.mywhc.ca/tim45/wp-content/uploads/2024/05/fracne.jpg" style="width:100%">
+    <div class="texte">Découvrez les châteaux mythiques de France</div>
   </div>
 
   <div class="images__slideshow fondu">
     <div class="numero__texte">3 / 5</div>
-    <img src="https://gftnth00.mywhc.ca/tim45/wp-content/uploads/2024/04/Machu_Picchu.png" style="width:100%">
-    <div class="texte">L'iconique Machu Picchu</div>
+    <img class="img__taille" src="https://gftnth00.mywhc.ca/tim45/wp-content/uploads/2024/05/italy.jpg" style="width:100%">
+    <div class="texte">Profitez de vacances bien méritées en Italie</div>
   </div>
 
   <div class="images__slideshow fondu">
     <div class="numero__texte">4 / 5</div>
-    <img src="https://gftnth00.mywhc.ca/tim45/wp-content/uploads/2024/04/Montagne.png" style="width:100%">
-    <div class="texte">Les magnifiques vues de nos randonnées</div>
+    <img class="img__taille" src="https://gftnth00.mywhc.ca/tim45/wp-content/uploads/2024/05/japan.jpg" style="width:100%">
+    <div class="texte">Prenez pars aux sciècles d'histoire du Japon</div>
   </div>
 
   <div class="images__slideshow fondu">
     <div class="numero__texte">5 / 5</div>
-    <img src="https://gftnth00.mywhc.ca/tim45/wp-content/uploads/2024/04/plage.png" style="width:100%">
-    <div class="texte">Nos destinations tropicales pour tous vos besoins de détente</div>
+    <img class="img__taille" src="https://gftnth00.mywhc.ca/tim45/wp-content/uploads/2024/05/united-states-scaled.jpg" style="width:100%">
+    <div class="texte">Décelez le riche parcours des États-Unis au sein même du pays</div>
   </div>
 
   <a class="precedent" onclick="rajouterImage(-1)">&#10094;</a>

@@ -11,6 +11,10 @@
     display: none;
   }
   
+  .img__taille {
+    width: 730px;
+    height: 487px;
+  }
 
   .suivant, .precedent {
     cursor: pointer;
@@ -35,7 +39,7 @@
   
 
   .precedent:hover, .suivant:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(70, 106, 184, 0.8);
   }
   
 

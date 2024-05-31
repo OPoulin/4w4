@@ -2,6 +2,7 @@
 *::before,
 *::after {
     box-sizing: border-box;
+
 }
 
 *{
@@ -13,6 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "prompt", Arial, Helvetica, sans-serif;
+    background-color: rgb(35, 130, 214);
 }
 
 .global {
@@ -90,6 +92,44 @@ body {
     flex-direction: column;
     background-color: var(--couleur-arriere-accueil);
     padding: 4rem;
+}
+
+#main__pays {
+    padding-bottom: 0;
+}
+
+#pays {
+    width: 100vw;
+    background-color: rgb(35, 130, 214);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dbp-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.dbp-button {
+    padding: 0.2rem;
+    margin: 0.5rem;
+    background-color: rgb(236, 224, 156);
+    border-radius: 8%;
+    &:hover {
+        background-color: rgb(247, 240, 196);
+    }
+    &:active {
+        background-color: rgb(209, 192, 92);
+    }
+}
+
+.section__pays {
+    width: 75vw;
 }
 
 .evenement__section {

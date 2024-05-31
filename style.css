@@ -217,6 +217,11 @@ p {
   font-family: "Fenix", serif;
 }
 
+.texte_pays {
+  text-align: justify;
+  width: 60%;
+}
+
 ul {
   font-family: "Madimi One", sans-serif;
 }
@@ -312,6 +317,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "prompt", Arial, Helvetica, sans-serif;
+  background-color: rgb(35, 130, 214);
 }
 
 .global {
@@ -371,6 +377,44 @@ body {
   flex-direction: column;
   background-color: var(--couleur-arriere-accueil);
   padding: 4rem;
+}
+
+#main__pays {
+  padding-bottom: 0;
+}
+
+#pays {
+  width: 100vw;
+  background-color: rgb(35, 130, 214);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dbp-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.dbp-button {
+  padding: 0.2rem;
+  margin: 0.5rem;
+  background-color: rgb(236, 224, 156);
+  border-radius: 8%;
+}
+.dbp-button:hover {
+  background-color: rgb(247, 240, 196);
+}
+.dbp-button:active {
+  background-color: rgb(209, 192, 92);
+}
+
+.section__pays {
+  width: 75vw;
 }
 
 .evenement__section {
@@ -846,6 +890,11 @@ input::-webkit-search-cancel-button {
   display: none;
 }
 
+.img__taille {
+  width: 730px;
+  height: 487px;
+}
+
 .suivant, .precedent {
   cursor: pointer;
   position: absolute;
@@ -867,7 +916,7 @@ input::-webkit-search-cancel-button {
 }
 
 .precedent:hover, .suivant:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(70, 106, 184, 0.8);
 }
 
 .texte {
