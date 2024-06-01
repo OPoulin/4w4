@@ -55,6 +55,25 @@
      background-size: 60%;
     text-align: center;
     gap: 2rem;
+    animation: moveBackground 5s linear forwards;
+}
+
+@keyframes moveBackground {
+    0% {
+        background-position: top left;
+    }
+    25% {
+        background-position: top center;
+    }
+    50% {
+        background-position: top right;
+    }
+    75% {
+        background-position: center center;
+    }
+    100% {
+        background-position: 50% 90%;
+    }
 }
 
 .entete__header__button {
